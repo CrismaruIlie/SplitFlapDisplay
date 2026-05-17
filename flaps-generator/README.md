@@ -43,5 +43,7 @@ Example in Bambu Studio (Preview): one grouped object with body + inlay STLs, ea
 
 Added a flaps holding case. See flaps_holding_case.stl and openscad file (in case you want to customize)
 
+<img src=examples/holding_case.png width=300>
+
 
 License for this generator: see comments in `flaps.scad` (Creative Commons BY-NC-SA 4.0).
