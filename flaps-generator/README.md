@@ -39,4 +39,9 @@ Example in Bambu Studio (Preview): one grouped object with body + inlay STLs, ea
 
 ![Bambu Studio: grouped flap body and inlay STLs with filament slots](examples/bambu_screenshot_example.png)
 
+## Bonus
+
+Added a flaps holding case. See flaps_holding_case.stl and openscad file (in case you want to customize)
+
+
 License for this generator: see comments in `flaps.scad` (Creative Commons BY-NC-SA 4.0).
