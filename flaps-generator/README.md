@@ -11,7 +11,7 @@ The script builds a grid of split-flap blanks matching the outline in `flap.dxf`
 <img src=examples/openscad_preview_example.png width=300>
 
 You control:
-
+- **`blackmargin`** - Control bottom of the flap black margin, when flap is in different color. 
 - **`fonts`** — list of OpenSCAD font strings (e.g. `Consolas:style=Bold`). Any style your system has installed works the same way as a single `text()` `font=` argument.
 - **`charFont`** — **64 integers**, one per character index in **`chars`**. Each value picks which entry in **`fonts`** to use for that glyph (e.g. `0` → first font, `1` → second).
 - **`fontsize`** — base letter height passed to OpenSCAD `text()` on each flap face
