@@ -56,6 +56,7 @@ module MakeFlaps(part){
     for ( y = [0 : 5] ){
         for ( x = [0 : 2 : 12] ){
             char = (y*14)+x;
+            if (char>56){
             if (char<64) {
                 if (char==0){
                  translate([17+(x*17),22+(y*43),0])
@@ -66,6 +67,7 @@ module MakeFlaps(part){
                 else {
                  translate([17+(x*17),22+(y*43),0])
                  flap(char-1, char, char+1, part);} 
+            }
             }
         }
     }
